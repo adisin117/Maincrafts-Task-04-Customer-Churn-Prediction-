@@ -1,0 +1,37 @@
+Model Performance Comparison Table
+                       Model  Accuracy  Precision    Recall  F1-Score   ROC-AUC
+0        Logistic Regression  0.821150   0.686154  0.597855  0.638968  0.862211
+1              Decision Tree  0.799858   0.618799  0.635389  0.626984  0.840000
+2  Tuned Logistic Regression  0.749468   0.516779  0.825737  0.635707  0.862040
+
+Classification Report of Logistic Regression:
+              precision    recall  f1-score   support
+
+       Churn       0.86      0.90      0.88      1036
+         Yes       0.69      0.60      0.64       373
+
+    accuracy                           0.82      1409
+   macro avg       0.77      0.75      0.76      1409
+weighted avg       0.82      0.82      0.82      1409
+
+
+Classification Report of Decision Tree:
+              precision    recall  f1-score   support
+
+           0       0.87      0.86      0.86      1036
+           1       0.62      0.64      0.63       373
+
+    accuracy                           0.80      1409
+   macro avg       0.74      0.75      0.75      1409
+weighted avg       0.80      0.80      0.80      1409
+
+
+Classification Report of Tuned Logistic Regression:
+              precision    recall  f1-score   support
+
+           0       0.92      0.72      0.81      1036
+           1       0.52      0.83      0.64       373
+
+    accuracy                           0.75      1409
+   macro avg       0.72      0.77      0.72      1409
+weighted avg       0.81      0.75      0.76      1409
